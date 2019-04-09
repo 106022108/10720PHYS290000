@@ -63,10 +63,3 @@ print(student_money)
 bins = np.arange(min(student_money)-lost_money,max(student_money)+lost_money,lost_money)
 plt.hist(student_money)
 plt.show()
-
-
-# In[ ]:
-
-
-
-
