@@ -27,7 +27,7 @@ if way == 'a': #方式a
         rs = random.sample(range(0,student),2)   #隨機挑兩位學生
         winner = random.randint(0,3)             #哪位獲勝 
         
-        if winner == 2
+        if winner == 2:
             continue
         
         if student_money[rs[0]] == 0 or student_money[rs[1]] == 0:
