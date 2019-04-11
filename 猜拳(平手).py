@@ -51,7 +51,9 @@ if way == 'b': #方式b
     while times != 0:
         times = times - 1
         rs = random.sample(range(0,student),2)   #隨機挑兩位學生
-        winner = random.randint(0,2)             #哪位獲勝     
+        winner = random.randint(0,2)             #哪位獲勝  
+        if winner == 2:
+            continue
         if winner == 0:
             student_money[rs[0]] = student_money[rs[0]] + lost_money 
             student_money[rs[1]] = student_money[rs[1]] - lost_money
